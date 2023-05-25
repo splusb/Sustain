@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="select.css">
+</head>
+<body>
+    <div class="selection">
+        <h1>Sustain</h1>
+        <p>Select all the food products from your fridge that you would like to include in your recipe!</p>
+        <p><input type="checkbox" name="apple" id="apple">Apples</p>
+        <p><input type="checkbox" name="bananas" id="bananas">Bananas</p>
+        <p><input type="checkbox" name="chicken" id="chicken">Chicken</p>
+        <p><input type="checkbox" name="eggs" id="eggs">Eggs</p>
+        <p><input type="checkbox" name="milk" id="milk">Milk</p>
+        <p>Select the type of recipe you are looking to make</p>
+        <p><input type="checkbox" name="bfast" id="bfast">Breakfast</p>
+        <p><input type="checkbox" name="lunch" id="lunch">Lunch</p>
+        <p><input type="checkbox" name="dine" id="dine">Dinner</p>
+        <p><input type="checkbox" name="dessert" id="dessert">Dessert</p>
+        <button id="myBtn">Get Recipes</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div>
+            <p>Congrats! You just earned 10 points!</p>
+            <p>Based of your input we have found 1 possible recipe for you:</p>
+            <h2>Banana Bread</h2>
+            <img src="https://akshitharamachandran.github.io/sustain-cs179/img/bread.png" alt="food.jpg">
+            <p>Ingredients from your fridge: Bananas,Milk,Eggs</p>
+            <p>Other Ingredients: Butter, Baking Soda,Salt</p>
+            <p>Difficulty.......................4.5/5</p>
+            <p>Time........................50 Minutes</p>
+            <p>Feedback...........................5/5</p>
+            <h3>Directions:</h3>
+            <p>1. </p>
+            <p>2. </p>
+            <p>3. </p>
+        </div>
+        </div>
+  
+  </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="select.js"></script>
+</body>
+</html>
