@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles_fridge.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fridge</h1>
+        <table >
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Expiration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apples</td>
+                    <td>12</td>
+                    <td>4/4</td>
+                </tr>           
+                <tr>
+                    <td>Bananas</td>
+                    <td>5</td>
+                    <td>4/1</td>
+                </tr>
+                <tr>
+                    <td>Chicken</td>
+                    <td>2</td>
+                    <td>4/6</td>
+                </tr>
+                <tr>
+                    <td>Egg</td>
+                    <td>14</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1</td>
+                    <td>4/10</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="give_input">
+            <input type="text" placeholder="Item">
+            <input type="text" placeholder="Quantity">
+            <input type="text" placeholder="Expiration">
+        </div>
+        <button class="edit">Manually Add/Edit Item</button>
+        <button class="get_recipes">Get Recipes</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="fridge.js"></script>
+</body>
+</html>
