@@ -1,0 +1,38 @@
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    border: 1px solid rgba(164, 168, 168, 0.292);
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(164, 168, 168, 0.292);
+}
+
+td,th,tr{
+    padding: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+table {
+    border-collapse: collapse;
+}
+tr { 
+    border: solid;
+    border-width: 1px 0;
+    
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.give_input{
+    margin-top: 30px;
+}
